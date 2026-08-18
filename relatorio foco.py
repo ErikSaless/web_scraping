@@ -12,7 +12,7 @@ driver.maximize_window()
 driver.get("https://www.pdvlink.com.br/suporte/Help_Desk/index.asp")
 
 driver.find_element(By.XPATH, '//*[@id="txtUsuario"]').send_keys("erik.sales ")
-driver.find_element(By.XPATH, '//*[@id="txtSenha"]').send_keys("170205")
+driver.find_element(By.XPATH, '//*[@id="txtSenha"]').send_keys("")
 driver.find_element(By.XPATH, '//*[@id="btnSubmit"]').click()
 print ("Login feito com sucesso")
 
