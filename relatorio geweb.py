@@ -12,7 +12,7 @@ driver.maximize_window()
 driver.get("https://sistemas.sogamax.com.br/sistema/login.php")
 sleep(2)
 driver.find_element(By.XPATH, '//*[@id="admLogin"]').send_keys("Erik Sales")
-driver.find_element(By.XPATH, '//*[@id="admPasswd"]').send_keys("170205")
+driver.find_element(By.XPATH, '//*[@id="admPasswd"]').send_keys("")
 driver.find_element(By.XPATH, '/html/body/div[2]/div/div[1]/form/button').click()
 print("Login feito com sucesso")
 
